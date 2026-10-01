@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RestfulBookerSuite" verbose="1">
+    <test name="all">
+        <classes>
+            <class name="com.restfulBooker.scenarios.createBooking" />
+            <class name="com.restfulBooker.scenarios.updateBooking" />
+            <class name="com.restfulBooker.scenarios.partialUpdateBooking" />
+            <class name="com.restfulBooker.scenarios.deleteBooking" />
+        </classes>
+    </test>
+</suite>

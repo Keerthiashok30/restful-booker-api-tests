@@ -1,0 +1,19 @@
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Excel temporary files
+~$*.xlsx
+
+# Maven leftovers and OS files
+target/
+.DS_Store

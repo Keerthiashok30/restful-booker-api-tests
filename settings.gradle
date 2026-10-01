@@ -1,0 +1,3 @@
+rootProject.name = 'RestAssuredFramework'
+include 'src:test:resources'
+include 'src:test:java:resources'
